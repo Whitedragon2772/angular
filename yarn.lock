@@ -237,7 +237,6 @@
 
 "@angular/dev-infra-private@https://github.com/angular/dev-infra-private-builds.git#a9c20b73ffe183e4be891660b0a6b4f551296d41":
   version "0.0.0"
-  uid a9c20b73ffe183e4be891660b0a6b4f551296d41
   resolved "https://github.com/angular/dev-infra-private-builds.git#a9c20b73ffe183e4be891660b0a6b4f551296d41"
   dependencies:
     "@actions/core" "^1.4.0"
@@ -12221,10 +12220,15 @@ requirejs-config-file@^4.0.0:
     esprima "^4.0.0"
     stringify-object "^3.2.1"
 
-requirejs@^2.3.5, requirejs@^2.3.6:
+requirejs@^2.3.5:
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/requirejs/-/requirejs-2.3.6.tgz#e5093d9601c2829251258c0b9445d4d19fa9e7c9"
   integrity sha512-ipEzlWQe6RK3jkzikgCupiTbTvm4S0/CAU5GlgptkN5SO6F3u0UD0K18wy6ErDqiCyP4J4YYe1HuAShvsxePLg==
+
+requirejs@^2.3.7:
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/requirejs/-/requirejs-2.3.7.tgz#0b22032e51a967900e0ae9f32762c23a87036bd0"
+  integrity sha512-DouTG8T1WanGok6Qjg2SXuCMzszOo0eHeH9hDZ5Y4x8Je+9JB38HdTLT4/VA8OaUhBa0JPVHJ0pyBkM1z+pDsw==
 
 requires-port@^1.0.0:
   version "1.0.0"
@@ -12554,7 +12558,6 @@ sass@1.42.1:
 
 "sauce-connect@https://saucelabs.com/downloads/sc-4.6.2-linux.tar.gz":
   version "0.0.0"
-  uid "7b7f35433af9c3380758e048894d7b9aecf3754e"
   resolved "https://saucelabs.com/downloads/sc-4.6.2-linux.tar.gz#7b7f35433af9c3380758e048894d7b9aecf3754e"
 
 saucelabs@^1.5.0:
@@ -14916,7 +14919,7 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@7.4.6, ws@~7.4.2:
+ws@7.4.6:
   version "7.4.6"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
   integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
