@@ -237,7 +237,6 @@
 
 "@angular/dev-infra-private@https://github.com/angular/dev-infra-private-builds.git#a9c20b73ffe183e4be891660b0a6b4f551296d41":
   version "0.0.0"
-  uid a9c20b73ffe183e4be891660b0a6b4f551296d41
   resolved "https://github.com/angular/dev-infra-private-builds.git#a9c20b73ffe183e4be891660b0a6b4f551296d41"
   dependencies:
     "@actions/core" "^1.4.0"
@@ -4015,6 +4014,13 @@ chokidar@^2.0.0:
     upath "^1.1.1"
   optionalDependencies:
     fsevents "^1.2.7"
+
+chokidar@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-4.0.0.tgz#4d603963e5dd762dc5c7bb1cb5664e53a3002225"
+  integrity sha512-mxIojEAQcuEvT/lyXq+jf/3cO/KoA6z4CeNDGGevTybECPOMFCnQy3OPahluUkbqgPNGw5Bi78UC7Po6Lhy+NA==
+  dependencies:
+    readdirp "^4.0.1"
 
 chownr@^1.1.1, chownr@^1.1.4:
   version "1.1.4"
@@ -12004,6 +12010,11 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
+readdirp@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-4.0.1.tgz#b2fe35f8dca63183cd3b86883ecc8f720ea96ae6"
+  integrity sha512-GkMg9uOTpIWWKbSsgwb5fA4EavTR+SG/PMPoAY8hkhHfEEY0/vqljY+XHqtDf2cr2IJtoNRDbrrEpZUiZCkYRw==
+
 readdirp@~3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.6.0.tgz#74a370bd857116e245b29cc97340cd431a02a6c7"
@@ -12554,7 +12565,6 @@ sass@1.42.1:
 
 "sauce-connect@https://saucelabs.com/downloads/sc-4.6.2-linux.tar.gz":
   version "0.0.0"
-  uid "7b7f35433af9c3380758e048894d7b9aecf3754e"
   resolved "https://saucelabs.com/downloads/sc-4.6.2-linux.tar.gz#7b7f35433af9c3380758e048894d7b9aecf3754e"
 
 saucelabs@^1.5.0:
@@ -14916,7 +14926,7 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@7.4.6, ws@~7.4.2:
+ws@7.4.6:
   version "7.4.6"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
   integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
