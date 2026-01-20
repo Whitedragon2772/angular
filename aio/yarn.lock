@@ -236,10 +236,10 @@
     tslib "^2.3.0"
     yargs "^17.0.0"
 
-"@angular/compiler@13.0.0-next.9":
-  version "13.0.0-next.9"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-13.0.0-next.9.tgz#d68d83f7509f177a9ecbeaa634255d0fd77fdeaa"
-  integrity sha512-NZC4RAbB2NSApaj9hiKc3+o48dUi4iQ55QTLf5BJMdYfhpq/hnI8Ri5OPRB3ZqZEXcg1MFc3KY0bCNlasVTfcw==
+"@angular/compiler@19.2.18":
+  version "19.2.18"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-19.2.18.tgz#c86f7126c9bd757bca180b2f98d0be57462bd162"
+  integrity sha512-3MscvODxRVxc3Cs0ZlHI5Pk5rEvE80otfvxZTMksOZuPlv1B+S8MjWfc3X3jk9SbyUEzODBEH55iCaBHD48V3g==
   dependencies:
     tslib "^2.3.0"
 
@@ -248,10 +248,10 @@
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-9.0.0.tgz#87e0bef4c369b6cadae07e3a4295778fc93799d5"
   integrity sha512-ctjwuntPfZZT2mNj2NDIVu51t9cvbhl/16epc5xEwyzyDt76pX9UgwvY+MbXrf/C/FWwdtmNtfP698BKI+9leQ==
 
-"@angular/core@13.0.0-next.9":
-  version "13.0.0-next.9"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-13.0.0-next.9.tgz#da06a257508076c5d6ed471ae87c22a31514bc01"
-  integrity sha512-e1Zri+2328T3YJ9xbwYd9AIHv5bFRUULomVBEBCR22EAAJpMhGCv0VfJvg6aNg/FNQv4Kuy+teI7NCbQSofqpg==
+"@angular/core@19.2.18":
+  version "19.2.18"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-19.2.18.tgz#50e561c20e98e5339ce351f207d6d7aeecf10f85"
+  integrity sha512-+QRrf0Igt8ccUWXHA+7doK5W6ODyhHdqVyblSlcQ8OciwkzIIGGEYNZom5OZyWMh+oI54lcSeyV2O3xaDepSrQ==
   dependencies:
     tslib "^2.3.0"
 
@@ -12493,7 +12493,7 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@7.4.6, ws@~7.4.2:
+ws@7.4.6:
   version "7.4.6"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
   integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
